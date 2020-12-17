@@ -115,7 +115,7 @@ class WOFComputerPlayer(WOFPlayer):
 # ----->>
 
 import sys
-sys.setExecutionLimit(600000) # let this take up to 10 minutes
+sys.setrecursionlimit(600000) # let this take up to 10 minutes
 
 import json
 import random
